@@ -47,7 +47,7 @@ This page lists the tools we use and what each one does for us.
 
 We log the token usage, response time and prompt version of every AI call so we can track quality and cost.
 
-**Privacy:** during the in-app interview, names and other sensitive details are masked before the text goes to OpenAI and restored when the answer comes back. Extending this masking to every AI call is planned.
+**Privacy:** during the in-app interview, names and other sensitive details are masked before the text goes to OpenAI and restored when the answer comes back. Masking for every AI call is implemented but not merged yet.
 
 ---
 
@@ -116,7 +116,7 @@ SMEs can be interviewed by voice inside the app.
 - **AI gateway:** one central place for every AI call, handling model choice, fallbacks, spending limits and monitoring.
 - **Cost and performance monitoring:** dashboards for AI cost and app health.
 - **Email notifications** through Microsoft Graph.
-- **Privacy masking on every AI call:** hide names and sensitive details before any text goes to OpenAI.
+- **Privacy masking on every AI call** *(implemented, not merged yet)*: hide names and sensitive details before any text goes to OpenAI.
 - **More content types:** produce more than articles, such as PowerPoint presentations and other formats.
 - **SME-to-SME sessions with the Agent in between:** two or more SMEs talk with each other while the Agent guides the discussion, asks follow-up questions and collects the facts.
 
