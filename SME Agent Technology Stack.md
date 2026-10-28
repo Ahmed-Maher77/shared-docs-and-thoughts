@@ -8,12 +8,21 @@ This page lists the tools we use and what each one does for us.
 
 ## How It Works
 
-1. **Request:** someone asks for a piece of content and assigns an SME.
-2. **Brief:** the AI writes a brief, and an editor reviews and approves it.
+1. **Request:** a **Content Creator** (or an **Admin**) creates a content request and assigns an SME to it.
+2. **Brief:** the AI writes a brief, and the Content Creator reviews and approves it.
 3. **Interview:** the SME is interviewed in a Teams meeting or by voice inside the app, or an existing transcript is uploaded.
-4. **Facts:** the AI pulls the key facts out of the interview, and the SME checks and approves them.
-5. **Article:** the AI drafts the article from the approved facts, and editors refine it with the AI editing assistant.
-6. **Content Hub:** the approved article is saved in the Content Hub, where the team can find and reuse it.
+4. **Facts:** the AI pulls the key facts out of the interview, and the **SME** checks and approves them.
+5. **Article:** the AI drafts the article from the approved facts, and the Content Creator refines it with the AI editing assistant.
+6. **Content Hub:** the Content Creator publishes the approved article to the Content Hub, where the team can find and reuse it (for example, the **Design Team** builds visuals from it).
+
+### Roles
+
+| Role | What they do |
+| --- | --- |
+| **Admin** | Can do everything, and also manages users, roles and settings. |
+| **Content Creator** | Creates requests, assigns SMEs, approves their own briefs, edits their own articles, and publishes and reuses content. |
+| **SME** | Checks and approves the facts and accuracy of the work assigned to them. |
+| **Design Team** | Views the content in the Content Hub (read only). |
 
 ---
 
@@ -69,7 +78,7 @@ SMEs can be interviewed by voice inside the app.
 | Tool | What it does for us |
 | --- | --- |
 | **Microsoft Entra ID (company login)** | Users sign in with their work Microsoft account. |
-| **Role-based access** | Each role (admin, editor, SME, and so on) sees and does only what it is allowed to. |
+| **Role-based access** | Each role (Admin, Content Creator, SME, Design Team) sees and does only what it is allowed to. Permissions are checked again on every request. |
 | **Microsoft Graph** | Schedules interviews in Outlook and finds SMEs in the company directory. |
 | **Recall.ai** | Sends a bot to live Teams meetings to record the interview transcript. |
 
