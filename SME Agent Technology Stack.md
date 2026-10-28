@@ -117,3 +117,7 @@ SMEs can be interviewed by voice inside the app.
 - **Cost and performance monitoring:** dashboards for AI cost and app health.
 - **Email notifications** through Microsoft Graph.
 - **Privacy masking on every AI call:** hide names and sensitive details before any text goes to OpenAI.
+- **More content types:** produce more than articles, such as PowerPoint presentations and other formats.
+- **SME-to-SME sessions with the Agent in between:** two or more SMEs talk with each other while the Agent guides the discussion, asks follow-up questions and collects the facts.
+
+> **Note:** our plans can change. After each meeting or demo with Mr. Youssef and Miss Jule, we may get new requirements or change direction, so this list will be updated as plans change.
